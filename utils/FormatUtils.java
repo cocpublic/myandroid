@@ -1,15 +1,6 @@
-package com.xin.newcarcollect.vpunitmvp.utils;
-
-import android.util.Log;
-
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
 
 /**
+ * 主要对一些常用的字符串转数字操作进行了封装，避免出现运行时crash
  * 把异常抓了，返回0
  */
 public class FormatUtils {
